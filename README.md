@@ -14,7 +14,7 @@ Useful JavaScript utilities.
 import { invariant } from 'kibble'
 
 // Specify runtime invariants.
-invariant(2 + 2 === 4, 'You're doing something very wrong.')
+invariant(2 + 2 === 4, "You're doing something very wrong.")
 
 // More coming soon...
 ```
