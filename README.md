@@ -11,10 +11,13 @@ Useful JavaScript utilities.
 ## Usage
 
 ```javascript
-import { invariant } from 'kibble'
+import { invariant, hash } from 'kibble'
 
 // Specify runtime invariants.
 invariant(2 + 2 === 4, "You're doing something very wrong.")
+
+// Generate deterministic hashes for JSON values.
+hash({ foo: 'bar', baz: 'qux' }) // => 'e206c130fcd88e647754337f071e98097d80a408c25a40ca61d3fb2d06c7dc47'
 
 // More coming soon...
 ```
