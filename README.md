@@ -14,7 +14,9 @@ Useful JavaScript utilities.
 import { invariant, hash } from 'kibble'
 
 // Specify runtime invariants.
-invariant(2 + 2 === 4, "You're doing something very wrong.")
+invariant(2 + 2 === 4, "I'm sorry Dave, I'm afraid I can't do that.")
+invariant.equal(2 + 2, 4, "Daisy, Daisy, give me your answer do.")
+invariant.fail("I'm afraid. I'm afraid, Dave. Dave, my mind is going.")
 
 // Generate deterministic hashes for JSON values.
 hash({ foo: 'bar', baz: 'qux' }) // => 'e206c130fcd88e647754337f071e98097d80a408c25a40ca61d3fb2d06c7dc47'
