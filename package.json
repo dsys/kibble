@@ -1,6 +1,6 @@
 {
   "name": "kibble",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Useful JavaScript utilities.",
   "author": "Alex Kern <alex@kern.io> (http://kern.io)",
   "license": "BSD-3-Clause",
